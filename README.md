@@ -31,7 +31,7 @@ Yeomen rabbitmq-plugin will generate the following files within your project dir
 ![](https://www.mbejda.com/content/images/2015/11/Screen-Shot-2015-11-23-at-7-44-34-AM.png)
 
 
-Blog : [mbejda.com/generating-rabbitmq-plugins-with-yeomen/](https://www.mbejda.com/generating-rabbitmq-plugins-with-yeomen/)<br>
+Blog : [www.mbejda.com/creating-rabbitmq-plugins-with-yeomen/](https://www.mbejda.com/creating-rabbitmq-plugins-with-yeomen/)<br>
 Twitter : [@notmilobejda](https://twitter.com/notmilobejda)<br>
 Github: [https://github.com/mbejda/generator-rabbitmq-plugin](https://github.com/mbejda/generator-rabbitmq-plugin)
 <br>
