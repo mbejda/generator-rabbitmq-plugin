@@ -1,8 +1,8 @@
 {
   "name": "generator-rabbitmq-plugin",
-  "version": "0.0.0",
-  "description": "Umbrella plugin generator for RabbitMQ",
-  "homepage": "https://www.mbejda.com",
+  "version": "0.0.1",
+  "description": "RabbitMQ plugin generator",
+  "homepage": "https://github.com/mbejda/generator-rabbitmq-plugin",
   "author": {
     "name": "Milos Bejda",
     "email": "mbejda@live.com",

@@ -1,5 +1,6 @@
-# generator-rabbitmq-plugin [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Generates rabbitmq plugin umbrella
+![](https://www.mbejda.com/content/images/2015/11/yeomen.png#cover#cover)<br>
+# Yeomen Generator for RabbitMQ Plugins
+> Generates RabbitMQ umbrella for plugins.
 
 ## Installation
 
@@ -15,6 +16,27 @@ Then generate your new project:
 ```bash
 yo generator-rabbitmq-plugin
 ```
+# Getting Started
+Yeomen will ask for the name of your RabbitMQ plugin. Then it will perform a `Git Clone` of the the RabbitMQ umbrella project. Then run `make co` and then `make` in the umbrella project.
+
+Yeomen rabbitmq-plugin will generate the following files within your project directory in the umbrella project directory :
+
+-  Makefile
+-  .gitignore
+-  src/*.erl
+-  src/*_sup.erl
+-  src/*_worker.erl
+
+<br>
+![](https://www.mbejda.com/content/images/2015/11/Screen-Shot-2015-11-23-at-7-44-34-AM.png)
+
+
+Blog : [mbejda.com/generating-rabbitmq-plugins-with-yeomen/](https://www.mbejda.com/generating-rabbitmq-plugins-with-yeomen/)<br>
+Twitter : [@notmilobejda](https://twitter.com/notmilobejda)<br>
+Github: [https://github.com/mbejda/generator-rabbitmq-plugin](https://github.com/mbejda/generator-rabbitmq-plugin)
+<br>
+<hr>
+
 
 ## Getting To Know Yeoman
 
@@ -24,10 +46,3 @@ Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he
 
 Apache-2.0 © [Milos Bejda](https://www.mbejda.com)
 
-
-[npm-image]: https://badge.fury.io/js/generator-rabbitmq-plugin.svg
-[npm-url]: https://npmjs.org/package/generator-rabbitmq-plugin
-[travis-image]: https://travis-ci.org/mbejda/generator-rabbitmq-plugin.svg?branch=master
-[travis-url]: https://travis-ci.org/mbejda/generator-rabbitmq-plugin
-[daviddm-image]: https://david-dm.org/mbejda/generator-rabbitmq-plugin.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/mbejda/generator-rabbitmq-plugin
