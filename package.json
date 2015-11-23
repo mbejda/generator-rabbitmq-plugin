@@ -1,0 +1,43 @@
+{
+  "name": "generator-rabbitmq-plugin",
+  "version": "0.0.0",
+  "description": "Umbrella plugin generator for RabbitMQ",
+  "homepage": "https://www.mbejda.com",
+  "author": {
+    "name": "Milos Bejda",
+    "email": "mbejda@live.com",
+    "url": "https://www.mbejda.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "rabbitmq",
+    "rabbitmq plugin",
+    "rabbit plugin",
+    "yo rabbitmq"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.21.1",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "repository": "mbejda/generator-rabbitmq-plugin",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
